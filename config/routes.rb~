@@ -1,7 +1,7 @@
 Barfinder::Application.routes.draw do
   resources :bars
 
-  #root 'bars#index'
+  root 'bars#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

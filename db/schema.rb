@@ -11,7 +11,10 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140302053716) do
+ActiveRecord::Schema.define(:version => 20140302222436) do
+
+# Could not dump table "bars" because of following StandardError
+#   Unknown type 'f' for column 'latitude'
 
   create_table "users", :force => true do |t|
     t.string   "name"
